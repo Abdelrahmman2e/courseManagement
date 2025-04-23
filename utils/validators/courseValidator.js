@@ -3,10 +3,6 @@ const validatorMW = require("../../middlewares/validatorMW");
 
 exports.createCourseValidator = [
   check("title").notEmpty().withMessage("Course title is required..!!").trim(),
-  // .isLength({ min: 3 })
-  // .withMessage("Course title is very short..!!")
-  // .isLength({ max: 32 })
-  // .withMessage("Course title is very long..!!"),
   check("description").notEmpty().withMessage("Description is required"),
   check("image")
     .notEmpty()
@@ -55,13 +51,7 @@ exports.updateCourseValidator = [
   .optional()
     .isFloat({ gt: 0 })
     .withMessage("Price must be a positive number")
-    .custom((val, { req }) => {
-      if (val == req.body.price) {
-        throw new Error("Price is same as old price..!!");
-      }
-      return true;
-    }),
-
+    ,
   validatorMW,
 ];
 exports.deleteCourseValidator = [
