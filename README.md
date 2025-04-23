@@ -17,32 +17,6 @@ A RESTful API for managing courses built with Node.js, Express, and MongoDB.
 - Mongoose
 - Express Async Handler
 
-## Installation
-
-1. Clone the repository
-
-   ```
-   git clone https://github.com/yourusername/course-management.git
-   cd course-management
-   ```
-
-2. Install dependencies
-
-   ```
-   npm install
-   ```
-
-3. Create a `.env` file in the root directory with the following variables:
-
-   ```
-   PORT=3000
-   MONGODB_URI=your_mongodb_connection_string
-   ```
-
-4. Start the server
-   ```
-   npm start
-   ```
 
 ## API Endpoints
 
