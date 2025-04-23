@@ -54,7 +54,7 @@ A RESTful API for managing courses built with Node.js, Express, and MongoDB.
 
 ## Deployment
 
-This project is deployed on Vercel. Visit [https://your-project-name.vercel.app](https://your-project-name.vercel.app) to see it in action.
+This project is deployed on Vercel. Visit [[https://your-project-name.vercel.app](https://course-management-lime.vercel.app/)]([https://your-project-name.vercel.app](https://course-management-lime.vercel.app/)) to see it in action.
 
 ## License
 
